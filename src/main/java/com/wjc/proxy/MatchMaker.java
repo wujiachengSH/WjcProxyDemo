@@ -25,4 +25,10 @@ public class MatchMaker implements InvocationHandler {
 		return null;
 	}
 
+	@Override
+	public String toString() {
+		return "MatchMaker [target=" + target + ", getClass()=" + getClass() + ", hashCode()=" + hashCode()
+				+ ", toString()=" + super.toString() + "]";
+	}
+	
 }
